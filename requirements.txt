@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pip
+cycler
+git+https://github.com/scikit-rf/scikit-rf@master

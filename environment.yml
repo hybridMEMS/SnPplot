@@ -1,0 +1,10 @@
+# run: conda env create --file environment.yml
+name: SnPplot
+dependencies:
+- python>=3.5
+- numpy
+- matplotlib
+- pip
+- cycler
+- pip:
+  - git+https://github.com/scikit-rf/scikit-rf@master
