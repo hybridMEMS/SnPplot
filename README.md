@@ -10,3 +10,10 @@ and save the deembedded s parameters in a seperate file for easy export to
 other programs such as ADS or Matlab. 
 
 Inputs are stored in a separate inputs.py file. After the initial repo sync, run 
+
+
+` git update-index --assume-unchanged .\snpplot\inputs.py
+`
+
+in the terminal. This will allow you to change the script inputs without syncing
+them to a shared repository.
